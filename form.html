@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<script>
-  function checker() {
-    var q1 = document.forms["answers"]["question1"];
-    var q2 = document.forms["answers"]["question2"];
-    var q3 = document.forms["answers"]["question3"];
-    var q4 = document.forms["answers"]["question4"];
-    var q5 = document.forms["answers"]["question5"];
-    var q6 = document.forms["answers"]["question6"];
-
-    if (q1.value == "accessible")
-    && (q2.value == "design")
-    && (q3.value == "is")
-    && (q4.value == "better")
-    && (q5.value == "for")
-    && (q6.value == "everyone")
-    {
-      window.location.href="yes.html";
-    }
-    else {
-      window.location.href="no.html";
-    }
-  }
-</script>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Enter your answers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <script>
+    function checker() {
+      var q1 = document.forms["answers"]["question1"];
+      var q2 = document.forms["answers"]["question2"];
+      var q3 = document.forms["answers"]["question3"];
+      var q4 = document.forms["answers"]["question4"];
+      var q5 = document.forms["answers"]["question5"];
+      var q6 = document.forms["answers"]["question6"];
+
+      if (q1.value == "accessible")
+      && (q2.value == "design")
+      && (q3.value == "is")
+      && (q4.value == "better")
+      && (q5.value == "for")
+      && (q6.value == "everyone")
+      {
+        window.location.href="yes.html";
+      }
+      else {
+        window.location.href="no.html";
+      }
+    }
+  </script>
+
 </head>
 
 <body>
